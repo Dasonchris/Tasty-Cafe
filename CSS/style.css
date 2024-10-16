@@ -48,6 +48,7 @@ ul li {
   border-top: 1px solid black;
   border-bottom: 1px solid crimson;
   border-radius: 60px;
+  padding: 9px;
 }
 
 .search-bar {
@@ -90,6 +91,10 @@ ul li {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.foods{
+  padding: 5rem;
 }
 .foods h1 {
   display: flex;
@@ -137,3 +142,148 @@ ul li {
   font-size: 20px;
   justify-content: space-between;
 }
+/* food menu section starts here */
+.food-menu{
+  background-color: rgba(128, 128, 128, 0.384);
+}
+
+
+.food-menu h1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.left{
+  background-color: white;
+  border-radius: 13px;
+}
+
+.food-menu .left{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.image{
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.image img{
+  height: 150px;
+  width: 200px;
+  border-radius: 20px;
+  margin-left: 30px;
+  /* padding-left: 40px; */
+}
+.card{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+  padding: 20px;
+}
+
+.food-lovers{
+  font-size: 13px;
+  margin: 0.5rem;
+  padding: 1rem;
+  justify-content: center;
+  /* background-color: white; */
+  border-radius: 20px;
+}
+
+.food-lovers h2 h3 p{
+  margin-top: 15px;
+}
+
+.food-lovers button{
+  background-color: red;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 8px;
+}
+.lonel p a{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: red;
+  transition: 0.4s;
+}
+.lonel p a:hover {
+  font-size: 15px;
+  /* border-top: 1px solid black; */
+  /* border-bottom: 1px solid crimson; */
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+/* food menu section ends here */
+
+/* footer starts here */
+#footer {
+  background-color: #485563;
+  margin-top: 30px;
+}
+
+#footer .footer {
+  min-height: 200px;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+#footer h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#footer .social-icon {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#footer .social-item {
+  height: 40px;
+  width: 40px;
+  margin: 10px 15px;
+}
+
+#footer .social-item img {
+  filter: grayscale(1);
+  transition: 0.3s ease filter;
+}
+
+#footer .social-item:hover img {
+  filter: grayscale(0);
+}
+
+#footer p {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.footer-container{
+justify-content: center;
+text-align: center;
+}
+
+.footer-container h2{
+  font-size: 10px;
+}
+
+.social-icon{
+  justify-content: center;
+  margin-top: 15px; 
+}
+
+.social-icon img{
+  width: 30px;
+  height: 30px;
+}
+/* footer ends here */
