@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/order.css" />
     <title>Tasty Cafe</title>
-</head>
-<body>
-    <h1>Order Page</h1>
-</body>
+  </head>
+  <body>
+    <!-- navbar starts here -->
+
+    <section id="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="">
+            <img src="./images/My_Logo.webp" alt="" />
+          </a>
+        </div>
+        <div class="menu text-right">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./categories.html">Categories</a></li>
+            <li><a href="./food.html">Food</a></li>
+            <li><a href="./order.html">Order</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- navbar ends here -->
+
+    <!-- delivery section -->
+    <div class="order">
+      <div class="selected-foods">
+        <h1>Fill this form to confirm your order</h1>
+        <form>
+          <fieldset>
+            <legend>Selected Foods</legend>
+            <img src="./images/still-life-recipe-with-plantain.jpg" alt="" />
+            <h2>Plantain sauce</h2>
+            <h3>GHC 100.00</h3>
+
+            <h4>Quantity</h4>
+            <label for="Quantity"></label>
+            <input type="number" id="number" name="number" />
+          </fieldset>
+        </form>
+      </div>
+      <div class="delivery">
+      <form>
+        <fieldset>
+          <legend>Delivery Details</legend>
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="chris" /><br /><br />
+          <label for="phone number">Phone number</label>
+          <input type="number" id="number" name="phone number" /><br /><br />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" /><br /><br />
+          <label for="Address">Address</label>
+          <input type="Address" id="Address" name="Address" />
+          <button>Confirm Order</button>
+        </fieldset>
+      </form>
+      </div>
+    </div>
+    <!-- End of delivery section -->
+  </body>
 </html>

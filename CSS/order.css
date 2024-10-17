@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    margin-bottom: 30px;
+}
+
+.order{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    background-color:rgba(134, 133, 133, 0.062);
+}
+
+.order .selected-foods{
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2, h3{
+    text-align: center;
+}
+
+legend{
+    font-weight: bold;
+} 
+
+fieldset{
+    
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend{
+    background-color: rgb(100, 99, 99);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+fieldset img{
+    width: 80px;
+    height: 80px;
+    margin-left: 15rem;
+}
+
+h4{
+    margin-top: 20px;
+}
+.selected-foods, fieldset{
+    width: 65%;
+    height: 65%;
+   box-shadow: 1px black;
+    
+}
+
+.delivery, fieldset{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 70%;
+    /* border: 1px solid black; */
+}
+
+button{
+    margin-top: 20px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.822);
+    cursor: pointer;
+    border: 10px;
+}
+
