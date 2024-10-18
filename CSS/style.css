@@ -13,6 +13,10 @@
   height: auto;
 }
 
+#navbar .hamburger{
+  display: none;
+}
+
 #navbar .container {
   min-height: 8vh;
   background-color: rgba(31, 30, 30, 0.3);
@@ -80,9 +84,6 @@
   letter-spacing: initial;
 }
 
-#navbar .menu text-right ul li:hover a {
-  color: crimson;
-}
 #navbar .hamburger {
   height: 60px;
   width: 60px;
@@ -435,8 +436,44 @@ text-align: center;
   ##Device = Desktops  ##Screen = 1281px to higher resolution desktops
 */
 @media (min-width: 1281px) {
-   .menu text-right, .hamburger {
+  #navbar .hamburger{
     display: none;
+  }
+
+  .search-bar{
+    margin-top: 6.6rem;
+  }
+
+  .search-bar input{
+    width: 40rem;
+    height: 4rem;
+    font-size: 23px;
+  }
+
+  .search-bar button{
+    height: 4rem;
+    font-size: 23px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+  .food-lovers button{
+    width: 200px;
+    height: 50px;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  h3{
+    font-size: 1.5rem;
   }
   
   }
@@ -446,10 +483,16 @@ text-align: center;
   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
-   .hamburger {
+
+  body{
+    font-size: 20px;
+    width: 92rem;
+    font-weight: 600;
+  }
+   #navbar .hamburger {
     display: none;
   }
-  #hnavbar .nav-list ul {
+  #navbar .nav-list ul {
     position: initial;
     display: block;
     height: auto;
@@ -468,30 +511,230 @@ text-align: center;
     flex-basis: 22%;
     margin: 1.5%;
   }
+
+  .search-bar{
+    margin-top: 6.8rem;
+    width: 93rem;
+  }
+  .search-bar input{
+    width: 40rem;
+    height: 4rem;
+    font-size: 23px;
+  }
+
+  .search-bar button{
+    height: 4rem;
+    font-size: 23px;
+  }
+
+  .foods{
+    width: 70rem;
+  }
+
+  .foods img{
+    width: 26rem;
+  }
+
+  .foods h1 {
+    margin-bottom: 20px;
+    width: 93rem;
+  }
+
+  .explore{
+    width: 93rem;
+  }
   
+
+  .food-img h3{
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+
+  .card{
+    width: 92rem;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  h3{
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .lonel p a{
+    font-size: 2rem;
+  }
+
+  #footer h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
 }
 
 /* 
   ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  body{
+    font-size: 20px;
+    width: 92rem;
+    font-weight: 600;
+  }
+  #navbar .hamburger{
+    display: none;
+  }
+  .search-bar{
+    margin-top: 6rem;
+  }
+
+  .food-img img{
+    width: 20em;
+    height: 15em;
+  }
+  .search-bar input{
+    width: 50rem;
+    height: 4rem;
+    font-size: 23px;
+  }
+
+  .search-bar button{
+    height: 4rem;
+    font-size: 23px;
+  }
+
+  .food-img{
+    margin-top: 20px;
+  }
+
+  .food-lovers {
+    font-size: 23px;
+  }
+
+  .food-lovers button{
+    font-size: 23px;
+    width: 100px;
+    min-height: 60px;
+  }
+
+  .lonel p a {
+    font-size: 23px;
+  }
+
+  #footer h2{
+    font-size: 2rem;
+  }
+
+  .container{
+    font-size: 30px;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
   
-  /* CSS */
+  .food-img h3{
+    font-size: 30px;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+
+  .social-icon{
+    justify-content: center;
+  }
+
   
 }
+
 
 /* 
   ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   body{
-    font-size: 18px;
-    width: 100%;
+    font-size: 20px;
+    width: 92rem;
+    font-weight: 600;
   }
   #navbar .hamburger{
     display: none;
   }
+  .search-bar{
+    margin-top: 6rem;
+  }
+
+  .food-img img{
+    width: 20em;
+    height: 15em;
+  }
+  .search-bar input{
+    width: 50rem;
+    height: 4rem;
+    font-size: 23px;
+  }
+
+  .search-bar button{
+    height: 4rem;
+    font-size: 23px;
+  }
+
+  .food-img{
+    margin-top: 20px;
+  }
+
+  .food-lovers {
+    font-size: 23px;
+  }
+
+  .food-lovers button{
+    font-size: 23px;
+    width: 100px;
+    min-height: 60px;
+  }
+
+  .lonel p a {
+    font-size: 23px;
+  }
+
+  #footer h2{
+    font-size: 2rem;
+  }
+
+  .container{
+    font-size: 30px;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
   
+
+  .food-img h3{
+    font-size: 30px;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+
+  .social-icon{
+    justify-content: center;
+  }
+
 }
 
 /* 
@@ -585,7 +828,6 @@ text-align: center;
     padding: 20px;
   }
 
- 
 }
 
 /* 
@@ -668,7 +910,6 @@ text-align: center;
     font: 10px;
   }
   
-
   .image img{
     width: 50px;
     height: 50px;
