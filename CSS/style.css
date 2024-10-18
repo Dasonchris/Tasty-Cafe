@@ -484,8 +484,13 @@ text-align: center;
   ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  /* CSS */
+  body{
+    font-size: 18px;
+    width: 100%;
+  }
+  #navbar .hamburger{
+    display: none;
+  }
   
 }
 
@@ -494,10 +499,93 @@ text-align: center;
  ##Screen = B/w 481px to 767px
 */
 @media (min-width: 481px) and (max-width: 767px) {
- 
+
+  body{
+    font-size: 15px;
+    width: 37rem;
+    margin-bottom: 2rem;
+  }
   
- 
+  .search-bar{
+    margin-top: 6rem;
+  }
+
+  ul{
+    display: none;
+  }
+
+  .food-menu{
+    width: 37rem;
+  }
+
+  .container{
+    width: 37rem;
+  }
+  .search-bar{
+    width: 38rem;
+  }
   
+  .foods h1{
+    text-align: center;
+  }
+
+  .foods{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+  }
+  .food-img img{
+    width: 15em;
+    height: 12em;
+  }
+
+  .food-img{
+    width: 10em;
+    height: 250px;
+    margin-bottom: 15px;
+  display: grid;
+  margin: auto;
+  }
+
+  .explore{
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    padding: -20rem;
+  }
+
+  .food-menu{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+  }
+  .food-lovers{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+  }
+
+  .food-lovers p{
+    font: 10px;
+  }
+
+  .image img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer-container{
+    padding: 20px;
+  }
+
+ 
 }
 
 /* 
@@ -548,10 +636,6 @@ text-align: center;
     margin: 0;
   }
 
-  /* .container img{
-    width: 70px;
-    height: 70px;
-  } */
 
   .footer-container{
     padding: 20px;
