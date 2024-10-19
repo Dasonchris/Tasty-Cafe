@@ -837,6 +837,7 @@ text-align: center;
 @media (min-width: 320px) and (max-width: 480px) {
   body{
     font-size: 14px;
+    width: 30rem;
   }
   #navbar{
     padding: 10px;
@@ -844,12 +845,12 @@ text-align: center;
     height: 20px;
   }
   #navbar img{
-    width: 100px;
     height: 100px;
   }
 
   .search-bar{
-    margin-top: 100px;
+    margin-top: 8rem;
+    width: 30rem;
   }
   .food-menu{
     flex-direction: column;
@@ -890,6 +891,7 @@ text-align: center;
     flex-direction: column;
     align-items: center;
     padding: 50px 20px;
+    /* width: 30rem; */
   }
   .food-menu{
     display: flex;
@@ -913,6 +915,10 @@ text-align: center;
   .image img{
     width: 50px;
     height: 50px;
+  }
+
+  .container{
+    width: 30rem;
   }
  
   
